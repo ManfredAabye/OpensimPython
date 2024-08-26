@@ -1,4 +1,4 @@
-   <Project name="PythonModuleLoader" path="addon-modules/PythonModuleLoader/Modules" type="Library">
+   <Project name="PythonModuleLoader" path="addon-modules/OpensimPython/Modules" type="Library">
      <Configuration name="Debug">
        <Options>
          <OutputPath>../../../bin/</OutputPath>
@@ -11,20 +11,11 @@
      </Configuration>
 
      <ReferencePath>../../../bin/</ReferencePath>
-     <Reference name="System"/>
-     <Reference name="System.Xml"/>
      <Reference name="log4net"/>
      <Reference name="Mono.Addins"/>
      <Reference name="Nini.dll" />
-	 <Reference name="IronPython.dll" localCopy="true"/>
-     <Reference name="IronPython.Modules.dll" localCopy="true"/>
-  	 <Reference name="Microsoft.Scripting.dll" localCopy="true"/>
-	 <Reference name="Microsoft.Scripting.Core.dll" localCopy="true"/>
-	 <Reference name="Microsoft.Scripting.ExtensionAttribute.dll" localCopy="true"/>
      <Reference name="OpenSim.Data"/>
      <Reference name="OpenSim.Framework"/>
-     <Reference name="OpenSim.Framework.Capabilities"/>
-     <Reference name="OpenSim.Framework.Communications"/>
      <Reference name="OpenSim.Framework.Servers.HttpServer"/>
      <Reference name="OpenSim.Region.Framework"/>
      <Reference name="OpenSim.Server.Base"/>
@@ -32,7 +23,6 @@
      <Reference name="OpenSim.Services.Interfaces"/>
      <Reference name="OpenMetaverseTypes"/>
      <Reference name="OpenMetaverse.StructuredData"/>
-     <Reference name="OpenMetaverse.Http"/>
 
      <Files>
        <Match pattern="*.cs" recurse="true"/>
