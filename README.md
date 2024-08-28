@@ -1,4 +1,4 @@
-# PythonNet .NET 8.0
+# PythonNet .NET 8.0 Sandbox
 https://github.com/pythonnet/pythonnet
 
 Erläuterungen zu den Änderungen:
